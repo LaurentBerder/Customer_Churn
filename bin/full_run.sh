@@ -10,7 +10,7 @@
 # History              : 2018.09.05 - Edited by Laurent Berder
 ######################################################################################################################################################
 
-source /appl/4C/churn_dev/bin/var_churn4C.sh
+source ${project_path}/bin/var_churn4C.sh
 
 # Update source table in Oracle
 sqoop eval -Dhadoop.security.credential.provider.path=${db_dest_pass_path} --connect ${db_dest_uri} --username=${db_dest_user} --password-alias=${db_dest_pass_alias} --query "DBMS_MVIEW.REFRESH('SMDT.DD_CUSTATRISK_BK', 'C', atomic_refresh => FALSE)"

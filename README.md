@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 ## Running
-To launch the classification, simply run the [.sh file](https://gitlab.cma-cgm.com/S00909722/CHURN/blob/master/bin/full_run.sh)
+To launch the classification, simply run the [.sh file](https://github.com/LaurentBerder/Customer_Churn/blob/master/bin/full_run.sh)
 ```
 cd {project_path}/bin/
 source ./full_run.sh

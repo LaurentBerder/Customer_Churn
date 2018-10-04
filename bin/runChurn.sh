@@ -10,7 +10,7 @@
 # History              : 2018.05.02 - Edited by Laurent Berder
 ######################################################################################################################################################
 
-source /appl/4C/churn_dev/bin/var_churn4C.sh
+source ${project_path}/bin/var_churn4C.sh
 
 spark_log_file=${fs_logs_path}churn_`date '+%Y.%m.%d'`.log
 spark_log_csv=${fs_logs_path}churn_`date '+%Y.%m.%d'`.csv

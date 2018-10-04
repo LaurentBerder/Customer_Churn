@@ -7,7 +7,7 @@ of churning.
 This project was developped on a Hadoop Cluster.
 
 To start the project, make sure to use a virtual environment, and install the
-required packages listed in [requirements.txt]()
+required packages listed in [requirements.txt](https://github.com/LaurentBerder/Customer_Churn/blob/master/requirements.txt)
 ```
 cd {project_path}/tools/
 virtualenv -p /usr/bin/python2.7 venv
